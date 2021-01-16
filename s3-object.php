@@ -5,9 +5,9 @@ use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
 
 // AWS Credentials
-$bucketName = 'image-rec-iitb';
-$IAM_KEY = 'AKIAUUYCXP63YKYJEJYO';
-$IAM_SECRET = '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';
+$bucketName = '';
+$IAM_KEY = '';
+$IAM_SECRET = '';
 
 try {
     $s3 = S3Client::factory(
